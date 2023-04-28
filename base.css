@@ -47,8 +47,9 @@ section {
 
 .container {
   display: grid;
+  justify-items: center;
   grid-template-rows: repeat(3, 150px);
-  grid-template-columns: repeat(4, 150px);
+  grid-template-columns: repeat(4, 170px);
   grid-gap: 1em;
 }
 
